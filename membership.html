@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eliteness Villeverte</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="hero-membership">
+    <div class="overlay">
+		<nav class="navbar">
+		  <div class="logo"><a href="index.html"><img src="images/Logo_white.png"></a></div>
+		  <div class="hamburger">
+			<div class="line"></div>
+			<div class="line"></div>
+			<div class="line"></div>
+		  </div>
+			<ul id="nav-menu">
+			  <li><a href="index.html">Home</a></li>
+			  <li><a href="#">The Club</a></li>
+			  <li><a href="#">Installations</a></li>
+			  <li><a href="#">Disciplines</a></li>
+			  <li><a href="membership.html" class="active">Membership</a></li>
+			  <li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+      <div>
+        <h1 class="page-title">Membership</h1>
+      </div>
+    </div>
+  </header>
+
+  <div class="bg-testimonials-footer">
+    <div class="section-wrapper"> 
+      <div class="text-block">
+        <section class="membership-info">
+          <div class="text">
+            <h2>Join the Eliteness Movement</h2>
+            <p>
+              Unlock world-class training in an exclusive sanctuary dedicated to self-mastery and transformation."
+            </p>
+            <p>
+              Would you like a more motivational, spiritual, or performance-driven tone?
+            </p>
+            <p>
+              Become an Eliteness member and experience…
+            </p>
+          </div>
+        </section>
+      </div>
+      <div class="contact-form">
+        <section class="contactform">
+          <h2>Join Us</h2>
+          <form action="#" method="post">
+            <input type="text" name="name" placeholder="Your Name" required />
+            <input type="email" name="email" placeholder="Your Email" required />
+            <input type="password" name="password" placeholder="Your password" required />
+            <input type="password" name="confirm" placeholder="Confirmation" required />
+            <input type="city" name="city" placeholder="city" required />
+            <input type="phone" name="phone" placeholder="Phone" required />
+            <div><button type="submit" class="btn">Join us</button>&nbsp;<button type="submit" class="btn">Login</button></div>
+          </form>
+        </section>
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="left">
+          <div><img src="images/Logo_white.png" style="height: 42px;"></div>
+          <p>At Eliteness, we believe that true elevation begins where comfort ends. Our spaces, our clients, and our community are designed to forge exceptional individuals.</p>
+        </div>
+        <div class="middle">
+          <h4>Address</h4>
+          <p>00 Blvd<br>Quartier<br>Casablanca</p>
+        </div>
+        <div class="right">
+          <h4>Contact</h4>
+          <div class="contact-info">
+            <p><i class="opc fas fa-phone"></i> +212 6 00 00 00 00</p>
+            <p><i class="opc fas fa-envelope"></i> contact@eliteness.ma</p>
+          </div>
+          <div class="social-icons">
+            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+            <a href="https://linkedin.com" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+            <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const hamburger = document.querySelector('.hamburger');
+  const navMenu = document.getElementById('nav-menu');
+  
+  hamburger.addEventListener('click', function() {
+    this.classList.toggle('active');
+    navMenu.classList.toggle('active');
+  });
+});
+</script>
